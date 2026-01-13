@@ -36,15 +36,14 @@ jobs:
         env:
           DISCORD_WEBHOOK_URL_QGP_ML: ${{ secrets.HEP_QGP_ML_HOOK }}
         run: python arxiv-discord-webhook-hep-qgp-ml.py
+      
+      - name: Run QGP + DKL alert
+        env:
+          DISCORD_WEBHOOK_URL_QGP_DKL: ${{ secrets.HEP_QGP_DEEP_KERNEL_LEARNING }}
+        run: python arxiv-discord-webhook-hep-qgp-neural.py
 
       - name: Run QGP + NN alert
         env:
           DISCORD_WEBHOOK_URL_QGP_NN: ${{ secrets.HEP_QGP_NEURAL_HOOK }}
         run: python arxiv-discord-webhook-hep-qgp-neural.py
 
-      - name: Run QGP + DKL alert
-        env:
-          DISCORD_WEBHOOK_URL_QGP_DKL: ${{ secrets.HEP_QGP_DEEP_KERNEL_LEARNING }}
-        run: python arxiv-discord-webhook-hep-qgp-neural.py
-
-        
