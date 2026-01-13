@@ -43,7 +43,7 @@ ARXIV_URL = (
     ")"
     "&sortBy=submittedDate"
     "&sortOrder=descending"
-    "&max_results=20"
+    "&max_results=200"
 )
 
 # ========= HELPERS =========

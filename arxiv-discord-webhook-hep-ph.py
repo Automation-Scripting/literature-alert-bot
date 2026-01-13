@@ -33,7 +33,7 @@ ARXIV_URL = (
     "search_query=cat:hep-ph"
     "&sortBy=submittedDate"
     "&sortOrder=descending"
-    "&max_results=50"
+    "&max_results=100"
 )
 
 # ========= HELPERS =========
