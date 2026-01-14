@@ -159,7 +159,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         return
 
     # --- FETCH ---
-    print("\n----------- Fetch -----------")
+    print("\n---")
     feed = feedparser.parse(arxiv_url)
 
     total_fetched = len(getattr(feed, "entries", []))
@@ -193,7 +193,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         )
 
     # --- FILTER ---
-    print("\n----------- Filter -----------")
+    print("\n---")
     papers: List[Tuple[Any, datetime]] = []
     skipped_bad_date = 0
 
@@ -220,7 +220,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         return
 
     # --- POST ---
-    print("\n----------- Post -----------")
+    print("\n---")
     post_mode = _choose_mode(len(papers))
 
     print(f"Posting mode      : {post_mode}")
@@ -278,7 +278,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
             time.sleep(POST_DELAY_SECONDS)
 
     # --- SUMMARY ---
-    print("---------- summary -----------")
+    print("---")
     print(f"Total results on arXiv    : {total_available}")
     print(f"Total fetched from arXiv  : {total_fetched}")
     print(f"Passed time filter        : {len(papers)}")
