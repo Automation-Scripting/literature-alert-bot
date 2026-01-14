@@ -149,7 +149,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
 
     webhook_url = os.getenv(webhook_env, "").strip()
 
-    print("\n=========== Topic ============")
+    print("\n====================== Topic =======================")
     print(f"ID               : {topic_id}")
     print(f"Title            : {title}")
     print(f"Webhook env      : {webhook_env}")
@@ -216,7 +216,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         print(f"Skipped (bad dates)      : {skipped_bad_date}")
 
     if not papers:
-        print("  No articles found in the selected time window. Nothing to post.")
+        print("(No articles in the selected time window. Nothing to post.)")
         return
 
     # --- POST ---
@@ -295,7 +295,7 @@ def main() -> None:
     cutoff = _get_cutoff()
     topics = _load_topics(yaml_path)
 
-    print("==============================\n")    
+    print("====================================================\n")    
     print("arXiv → Discord runner")
     print(f"Topics file      : {yaml_path}")
     print(f"TIME_FRAME       : {TIME_FRAME_RAW}")
