@@ -5,10 +5,25 @@ on:
     - cron: "0 8 * * *"   # daily at 08:00 UTC = 05:00 BRT (UTC-3)
   workflow_dispatch:
     inputs:
+      only_topic:
+        description: "Run only this topic id (default: all)"
+        required: false
+        default: "all"
+        type: string
       time_frame:
-        description: "Time frame (default: 1)"
+        description: "Days back (default: 1)"
         required: false
         default: "1"
+        type: string
+      backfill_days:
+        description: "Backfill window (overrides time_frame)"
+        required: false
+        default: ""
+        type: string
+      mode:
+        description: "Posting mode: per_paper | summary | auto"
+        required: false
+        default: "per_paper"
         type: string
 
 jobs:

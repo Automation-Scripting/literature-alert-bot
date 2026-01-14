@@ -153,8 +153,6 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
     print(f"ID                       : {topic_id}")
     print(f"Title                    : {title}")
     print(f"Webhook env              : {webhook_env}")
-    post_mode = _choose_mode(len(papers))
-    print(f"Posting mode             : {post_mode}")
 
     if not webhook_url:
         print(f"  ⚠️  Skipping: env var '{webhook_env}' not set.")
@@ -224,7 +222,9 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         return
 
     # --- POST ---
-    print("\n---")
+    post_mode = _choose_mode(len(papers))
+
+    print(f"Posting mode             : {post_mode}")
     posted_ok = 0
     posted_fail = 0
 
