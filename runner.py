@@ -281,11 +281,11 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
     # --- SUMMARY ---
     print("---")
 
-    print(f"Total results on arXiv    : {total_available}")
-    print(f"Total fetched from arXiv  : {total_fetched}")
-    print(f"Passed time filter        : {len(papers)}")
-    print(f"Successfully posted       : {posted_ok}")
-    print(f"Failed to post            : {posted_fail}")
+    print(f"Total results on arXiv   : {total_available}")
+    print(f"Total fetched from arXiv : {total_fetched}")
+    print(f"Passed time filter       : {len(papers)}")
+    print(f"Successfully posted      : {posted_ok}")
+    print(f"Failed to post           : {posted_fail}")
 
 
 def main() -> None:
