@@ -159,6 +159,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         return
 
     # --- FETCH ---
+    print("\n----------- Fetch -----------")
     feed = feedparser.parse(arxiv_url)
 
     total_fetched = len(getattr(feed, "entries", []))
@@ -176,7 +177,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         print("Cutoff (UTC)           : (no date filtering)")
     else:
         print(f"Cutoff (UTC)          : {cutoff.isoformat()}")
-    print(f"HTTP status           : {status}")
+    print(f"HTTP fetch status     : {status}")
     print(f"bozo                  : {bozo}")
     if bozo_exc:
         print(f"bozo_exception    : {bozo_exc}")
@@ -192,6 +193,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         )
 
     # --- FILTER ---
+    print("\n----------- Filter -----------")
     papers: List[Tuple[Any, datetime]] = []
     skipped_bad_date = 0
 
@@ -218,6 +220,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
         return
 
     # --- POST ---
+    print("\n----------- Post -----------")
     post_mode = _choose_mode(len(papers))
 
     print(f"Posting mode      : {post_mode}")
