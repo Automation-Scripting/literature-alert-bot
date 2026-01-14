@@ -29,8 +29,8 @@ jobs:
           MODE: ${{ github.event.inputs.mode || 'auto' }}
 
           DISCORD_WEBHOOK_URL_HEPPH: ${{ secrets.HEP_PH_HOOK }}
-          DISCORD_WEBHOOK_URL_QGP_BARYOGENESIS: ${{ secrets.HEP_QGP_BARYOGENESIS_HOOK }}
-          DISCORD_WEBHOOK_URL_QGP_LFI: ${{ secrets.HEP_QGP_LFI_HOOK }}
+          DISCORD_WEBHOOK_URL_QGP_BARYOGENESIS: ${{ secrets.HEP_QGP_BARYOGENESIS }}
+          DISCORD_WEBHOOK_URL_QGP_LFI: ${{ secrets.HEP_QGP_LIKELIHOOD_FREE }}
           DISCORD_WEBHOOK_URL_QGP_ML: ${{ secrets.HEP_QGP_ML_HOOK }}
           DISCORD_WEBHOOK_URL_QGP_NN: ${{ secrets.HEP_QGP_NEURAL_HOOK }}
           DISCORD_WEBHOOK_URL_BAYESIAN_QGP: ${{ secrets.HEP_QGP_BAYESIAN_INFERENCE_HOOK }}
