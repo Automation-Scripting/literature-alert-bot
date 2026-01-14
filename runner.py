@@ -212,7 +212,7 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
     if MAX_POSTS_PER_TOPIC > 0 and len(papers) > MAX_POSTS_PER_TOPIC:
         papers = papers[:MAX_POSTS_PER_TOPIC]
 
-    print(f"Entries after time filter: {len(papers)}")
+    print(f"Total articles filtered  : {len(papers)}")
     if skipped_bad_date:
         print(f"Skipped (bad dates)      : {skipped_bad_date}")
 
