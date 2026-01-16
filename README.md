@@ -107,6 +107,7 @@ This is a **direct query** to the arXiv Atom API and is consumed **as-is** by th
 No transformation or validation is performed by the system.
 
 <img width="479" height="349" alt="image" src="https://github.com/user-attachments/assets/6537fb75-c33d-49ed-9b26-e6c9a4293f3f" />
+
 ---
 
 ## 4) Topic
