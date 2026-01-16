@@ -19,6 +19,7 @@ This repository contains a **Python runner** that fetches articles from **arXiv*
 
 1. Download/clone this repository with the full source code (including the files inside the `.github/workflows` folder).
 2. Push the code to a **new repository** (GitHub) that you own.
+<img width="568" height="139" alt="image" src="https://github.com/user-attachments/assets/46935c34-9eec-4524-8109-789223a56d3d" />
 
 ---
 
@@ -30,6 +31,7 @@ Each topic in the YML file (e.g. `topics/hep.yml`) contains:
 - The environment variable name that holds the Discord webhook URL: `webhook_env`
 
 This variable determines **where** the message will be sent on Discord.
+<img width="1271" height="152" alt="image" src="https://github.com/user-attachments/assets/24e0199b-5f7f-4332-b37e-39dadf2e2941" />
 
 ---
 
@@ -42,6 +44,18 @@ This variable determines **where** the message will be sent on Discord.
 5. Copy the value from **Copy Webhook URL**.
 
 This URL is the value that must be stored as a GitHub secret.
+
+### **1:**
+<img width="380" height="51" alt="image" src="https://github.com/user-attachments/assets/3215b6d8-578c-4012-a7c7-ff61bf22e1e6" />
+
+### **2:**
+<img width="272" height="187" alt="image" src="https://github.com/user-attachments/assets/d5d6e938-0fde-405b-9727-ebed44bc9108" />
+
+### **3:**
+<img width="747" height="94" alt="image" src="https://github.com/user-attachments/assets/e60bfbbe-6c7e-41fd-871a-0564a805063b" />
+
+### **4:**
+<img width="703" height="355" alt="image" src="https://github.com/user-attachments/assets/de0dd352-429c-4bf3-8845-a60d8ea9f87d" />
 
 ---
 
@@ -116,32 +130,8 @@ Each run prints:
 This repository contains a **Python runner** that fetches articles from **arXiv** based on a YAML file of topics/queries and publishes them daily to **Discord** via **Webhook**.
 
 ---
-## Index
 
-- [Setup](#1-setup)
-- [Variable binding](#2-variable-binding)
-- [Query](#3-query)
-- [Topic](#4-topic)
-- [Report](#5-report)
-  
-## 1) Setup
-1. Download/clone this repository with the full source code (including the files inside the `.github/workflows` folder).
-2. Push the code to a **new repository** (GitHub) that you own.
 
-<img width="568" height="139" alt="image" src="https://github.com/user-attachments/assets/46935c34-9eec-4524-8109-789223a56d3d" />
-
-## 2) Variable binding
-
-Each topic in the YML file (e.g. `topics/hep.yml`) contains:
-
-- The query to be executed: `arxiv_url`
-- The environment variable name that holds the Discord webhook URL: `webhook_env`
-
-This variable determines **where** the message will be sent on Discord.
-
-<img width="1271" height="152" alt="image" src="https://github.com/user-attachments/assets/24e0199b-5f7f-4332-b37e-39dadf2e2941" />
-
----
 
 ### On Discord: how to obtain the value of this variable (post URL)
 
@@ -153,17 +143,6 @@ This variable determines **where** the message will be sent on Discord.
 
 This URL is the value that must be stored as a GitHub secret.
 
-### **1:**
-<img width="380" height="51" alt="image" src="https://github.com/user-attachments/assets/3215b6d8-578c-4012-a7c7-ff61bf22e1e6" />
-
-### **2:**
-<img width="272" height="187" alt="image" src="https://github.com/user-attachments/assets/d5d6e938-0fde-405b-9727-ebed44bc9108" />
-
-### **3:**
-<img width="747" height="94" alt="image" src="https://github.com/user-attachments/assets/e60bfbbe-6c7e-41fd-871a-0564a805063b" />
-
-### **4:**
-<img width="703" height="355" alt="image" src="https://github.com/user-attachments/assets/de0dd352-429c-4bf3-8845-a60d8ea9f87d" />
 
 ---
 
