@@ -34,7 +34,7 @@ Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser 
 ### **Crie uma Repository Secrets**
 <img width="941" height="231" alt="image" src="https://github.com/user-attachments/assets/12a48ae3-b40c-4d36-9f12-948a001f2e37" />
 
-### **Agora no runner (.github/workflows/check_new_papers.yml) informe o nome dessa variável**
+### **Agora no runner (.github/workflows/check_new_papers.yml) informe o nome dessa variável secrets.<NOME_DA_SECRET>**
 <img width="815" height="320" alt="image" src="https://github.com/user-attachments/assets/2520d651-5ef1-4f25-bba0-2391621221a7" />
 **E finalmente informe para o topico o valor da variável que recebeu a URL**
 **topics/topic.yml:** <img width="1190" height="150" alt="image" src="https://github.com/user-attachments/assets/a6425669-3963-4016-8ddf-7e741c9d51ae" />
