@@ -40,7 +40,6 @@ Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser 
 **topics/topic.yml:** <img width="1190" height="150" alt="image" src="https://github.com/user-attachments/assets/a6425669-3963-4016-8ddf-7e741c9d51ae" />
 
 ## 3) Query
-A query pode ser adaptada aos objetivos almejados. 
 <img width="479" height="349" alt="image" src="https://github.com/user-attachments/assets/6537fb75-c33d-49ed-9b26-e6c9a4293f3f" />
 
 ## 4) Tópico
