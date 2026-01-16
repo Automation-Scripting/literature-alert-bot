@@ -8,7 +8,7 @@ Este repositório contém um **runner em Python** que busca artigos no **arXiv**
 <img width="568" height="139" alt="image" src="https://github.com/user-attachments/assets/46935c34-9eec-4524-8109-789223a56d3d" />
 
 ## 2) Bind das variáveis
-Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser executada (arvix_url) e existe uma variável de ambiente que contém a URL (`webhook`) para onde enviar a mensagem no Discord.
+Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser executada (arvix_url) e existe uma variável de ambiente que contém a URL (`webhook_env`) para onde enviar a mensagem no Discord.
 <img width="1271" height="152" alt="image" src="https://github.com/user-attachments/assets/24e0199b-5f7f-4332-b37e-39dadf2e2941" />
 
 ### **No Discord: para obter o valor desta variável (URL) do post:**
