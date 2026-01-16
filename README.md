@@ -12,19 +12,23 @@ Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser 
 <img width="1271" height="152" alt="image" src="https://github.com/user-attachments/assets/24e0199b-5f7f-4332-b37e-39dadf2e2941" />
 
 ### **No Discord: para obter o valor desta variável (URL) do post:**
+
 ### **Selecione um Canal de destino e acesse as configurações deste canal em Settings:**
 <img width="380" height="51" alt="image" src="https://github.com/user-attachments/assets/3215b6d8-578c-4012-a7c7-ff61bf22e1e6" />
+
 ### **Em Settings, clique em Integrations:**
 <img width="272" height="187" alt="image" src="https://github.com/user-attachments/assets/d5d6e938-0fde-405b-9727-ebed44bc9108" />
+
 ### **Crie um webhook em New Webhook e copie a URL em Copy Webhook URL:**
 <img width="703" height="355" alt="image" src="https://github.com/user-attachments/assets/de0dd352-429c-4bf3-8845-a60d8ea9f87d" />
 
 ### **No GitHub Repository -> Settings: criar uma secret com a URL destino do post em:**
-**Settings**
+
+### **Settings**
 <img width="1098" height="130" alt="image" src="https://github.com/user-attachments/assets/0b3b4f4d-30ec-4cd5-97fa-d0102cf11e5d" />
-**Secrets and Variables -> Actions**
+### **Secrets and Variables -> Actions**
 <img width="364" height="150" alt="image" src="https://github.com/user-attachments/assets/87fedf6b-c0b0-4b9d-ae57-f19ea0895da6" />
-**Repository Secrets**
+### **Repository Secrets**
 <img width="941" height="231" alt="image" src="https://github.com/user-attachments/assets/12a48ae3-b40c-4d36-9f12-948a001f2e37" />
 
 ### **No tópico (arquivo hep.yml): informar o nome dessa variável**
