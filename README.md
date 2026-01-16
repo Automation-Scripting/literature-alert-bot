@@ -27,8 +27,10 @@ Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser 
 
 ### **Selecione Settings**
 <img width="1098" height="130" alt="image" src="https://github.com/user-attachments/assets/0b3b4f4d-30ec-4cd5-97fa-d0102cf11e5d" />
+
 ### **Selecione Secrets and Variables e depois Actions**
 <img width="364" height="150" alt="image" src="https://github.com/user-attachments/assets/87fedf6b-c0b0-4b9d-ae57-f19ea0895da6" />
+
 ### **Crie uma Repository Secrets**
 <img width="941" height="231" alt="image" src="https://github.com/user-attachments/assets/12a48ae3-b40c-4d36-9f12-948a001f2e37" />
 
