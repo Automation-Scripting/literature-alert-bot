@@ -67,6 +67,15 @@ This URL is the value that must be stored as a GitHub secret.
 4. Set the **name** of the secret to match the value used in `webhook_env`.
 5. Set the **value** of the secret to the Discord webhook URL.
 
+### **1:**
+<img width="1098" height="130" alt="image" src="https://github.com/user-attachments/assets/0b3b4f4d-30ec-4cd5-97fa-d0102cf11e5d" />
+
+### **2:**
+<img width="364" height="150" alt="image" src="https://github.com/user-attachments/assets/87fedf6b-c0b0-4b9d-ae57-f19ea0895da6" />
+
+### **3:**
+<img width="941" height="231" alt="image" src="https://github.com/user-attachments/assets/12a48ae3-b40c-4d36-9f12-948a001f2e37" />
+
 ---
 
 ### Bind the secret in the workflow
@@ -154,14 +163,6 @@ This URL is the value that must be stored as a GitHub secret.
 4. Set the **name** of the secret to match the value used in `webhook_env`.
 5. Set the **value** of the secret to the Discord webhook URL.
 
-### **1:**
-<img width="1098" height="130" alt="image" src="https://github.com/user-attachments/assets/0b3b4f4d-30ec-4cd5-97fa-d0102cf11e5d" />
-
-### **2:**
-<img width="364" height="150" alt="image" src="https://github.com/user-attachments/assets/87fedf6b-c0b0-4b9d-ae57-f19ea0895da6" />
-
-### **3:**
-<img width="941" height="231" alt="image" src="https://github.com/user-attachments/assets/12a48ae3-b40c-4d36-9f12-948a001f2e37" />
 
 
 ### Bind the secret in the workflow
