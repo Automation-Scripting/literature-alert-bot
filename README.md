@@ -23,16 +23,19 @@ Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser 
 <img width="747" height="94" alt="image" src="https://github.com/user-attachments/assets/e60bfbbe-6c7e-41fd-871a-0564a805063b" />
 <img width="703" height="355" alt="image" src="https://github.com/user-attachments/assets/de0dd352-429c-4bf3-8845-a60d8ea9f87d" />
 
-### **No GitHub Repository -> Settings: criar uma secret com a URL destino do post em:**
+### **Nas configurações do GitHub Repository (Settings): criar uma secret com a URL destino do post.**
 
-### **Settings**
+### **Selecione Settings**
 <img width="1098" height="130" alt="image" src="https://github.com/user-attachments/assets/0b3b4f4d-30ec-4cd5-97fa-d0102cf11e5d" />
-### **Secrets and Variables -> Actions**
+### **Selecione Secrets and Variables e depois Actions**
 <img width="364" height="150" alt="image" src="https://github.com/user-attachments/assets/87fedf6b-c0b0-4b9d-ae57-f19ea0895da6" />
-### **Repository Secrets**
+### **Crie uma Repository Secrets**
 <img width="941" height="231" alt="image" src="https://github.com/user-attachments/assets/12a48ae3-b40c-4d36-9f12-948a001f2e37" />
 
-### **No tópico (arquivo hep.yml): informar o nome dessa variável**
-**topics/topic.yml:** <img width="1190" height="150" alt="image" src="https://github.com/user-attachments/assets/a6425669-3963-4016-8ddf-7e741c9d51ae" />
-**E no runner (.github/workflows/check_new_papers.yml): informar o valor dessa variável**
+### **Agora no runner (.github/workflows/check_new_papers.yml) informe o nome dessa variável**
 <img width="815" height="320" alt="image" src="https://github.com/user-attachments/assets/2520d651-5ef1-4f25-bba0-2391621221a7" />
+**E finalmente informe para o topico o valor da variável que recebeu a URL**
+**topics/topic.yml:** <img width="1190" height="150" alt="image" src="https://github.com/user-attachments/assets/a6425669-3963-4016-8ddf-7e741c9d51ae" />
+
+## 3) Query
+
