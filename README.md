@@ -47,3 +47,4 @@ Em cada tópico no arquivo YML (topics/hep.yml), contém a query de busca a ser 
 Para incluir um novo tópico, criar um novo step no workflow com a mesma estrutura do anterior, informando as secrets utilizadas e passando o novo tópico como parâmetro para o runner.py.
 
 <img width="893" height="343" alt="image" src="https://github.com/user-attachments/assets/ce736f07-f719-43f3-a61d-97ad48fa376e" />
+
