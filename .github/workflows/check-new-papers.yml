@@ -38,7 +38,7 @@ jobs:
           TIME_FRAME: ${{ github.event.inputs.time_frame || '1' }}
           ONLY_TOPIC: ${{ github.event.inputs.only_topic || 'all' }}
 
-          DISCORD_WEBHOOK_URL_HEPPH: ${{ secrets.HEP_PHENOMENOLOGY_HOOK }}
+          DISCORD_WEBHOOK_URL_NUCLTH˜`: ${{ secrets.HEP_PHENOMENOLOGY_HOOK }}
           DISCORD_WEBHOOK_URL_BARYOGENESIS: ${{ secrets.HEP_EARLY_UNIVERSE_BARYOGENESIS_HOOK }}
           DISCORD_WEBHOOK_URL_QGP_LFI: ${{ secrets.HEP_QGP_LIKELIHOOD_FREE_HOOK }}
           DISCORD_WEBHOOK_URL_QGP_ML: ${{ secrets.HEP_QGP_ML_HOOK }}

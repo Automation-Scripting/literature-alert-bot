@@ -1,9 +1,9 @@
 topics:
-  - id: hep_ph
-    title: "hep-phenomenology"
-    webhook_env: "DISCORD_WEBHOOK_URL_HEPPH"
+  - id: nucl-th
+    title: "Nuclear Theory"
+    webhook_env: "DISCORD_WEBHOOK_URL_NUCLTH"
     max_results: 50
-    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:hep-ph&sortBy=submittedDate&sortOrder=descending&max_results=100"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:nucl-th&sortBy=submittedDate&sortOrder=descending&max_results=100"
 
   - id: qgp_baryogenesis
     title: "Baryogenesis + leptogenesis"
