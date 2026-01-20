@@ -31,7 +31,7 @@ Each topic in the YML file (e.g. `topics/hep.yml`) contains:
 - The environment variable name that holds the Discord webhook URL: `webhook_env`
 
 This variable determines **where** the message will be sent on Discord.
-<img width="1271" height="152" alt="image" src="https://github.com/user-attachments/assets/24e0199b-5f7f-4332-b37e-39dadf2e2941" />
+<img width="1236" height="147" alt="image" src="https://github.com/user-attachments/assets/c413a95d-b338-4864-99a1-0245862ce4e0" />
 
 ---
 
