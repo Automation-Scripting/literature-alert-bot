@@ -55,7 +55,7 @@ This URL is the value that must be stored as a GitHub secret.
 <img width="747" height="94" alt="image" src="https://github.com/user-attachments/assets/e60bfbbe-6c7e-41fd-871a-0564a805063b" />
 
 ### **>>:**
-<img width="696" height="351" alt="image" src="https://github.com/user-attachments/assets/dd7872be-9e3c-4d3a-ae00-bd83158b96c3" />
+<img width="727" height="365" alt="image" src="https://github.com/user-attachments/assets/484e92b7-0bb5-4ea1-a1d4-cbb2e08fb534" />
 
 ---
 
