@@ -4,11 +4,6 @@ topics:
     webhook_env: "DISCORD_WEBHOOK_URL_STAT_ML"
     arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.ML&sortBy=submittedDate&sortOrder=descending&max_results=100"
 
-  - id: stat-th
-    title: "Statistics - Theory"
-    webhook_env: "DISCORD_WEBHOOK_URL_STAT_TH"
-    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.TH&sortBy=submittedDate&sortOrder=descending&max_results=100"
-
   - id: stat-me
     title: "Statistics - Methodology"
     webhook_env: "DISCORD_WEBHOOK_URL_STAT_ME"
