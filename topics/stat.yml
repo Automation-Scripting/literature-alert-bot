@@ -1,0 +1,45 @@
+topics:
+  - id: stat-ml
+    title: "Statistics - Machine Learning"
+    webhook_env: "DISCORD_WEBHOOK_URL_STAT_ML"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.ML&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: stat-th
+    title: "Statistics - Theory"
+    webhook_env: "DISCORD_WEBHOOK_URL_STAT_TH"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.TH&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: stat-me
+    title: "Statistics - Methodology"
+    webhook_env: "DISCORD_WEBHOOK_URL_STAT_ME"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.ME&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: stat-ap
+    title: "Statistics - Applications"
+    webhook_env: "DISCORD_WEBHOOK_URL_STAT_AP"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.AP&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: stat-co
+    title: "Statistics - Computation"
+    webhook_env: "DISCORD_WEBHOOK_URL_STAT_CO"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.CO&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: stat-ot
+    title: "Statistics - Other"
+    webhook_env: "DISCORD_WEBHOOK_URL_STAT_OT"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:stat.OT&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: math-st
+    title: "Mathematics - Statistics Theory"
+    webhook_env: "DISCORD_WEBHOOK_URL_MATH_ST"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:math.ST&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: cs-lg
+    title: "Computer Science - Machine Learning"
+    webhook_env: "DISCORD_WEBHOOK_URL_CS_LG"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:cs.LG&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: cs-ai
+    title: "Computer Science - Artificial Intelligence"
+    webhook_env: "DISCORD_WEBHOOK_URL_CS_AI"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:cs.AI&sortBy=submittedDate&sortOrder=descending&max_results=100"
