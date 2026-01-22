@@ -33,7 +33,7 @@ jobs:
           python -m pip install --upgrade pip
           pip install feedparser requests pyyaml
 
-      - name: Run topics via runner
+      - name: Run HEP topics via runner
         env:
           TIME_FRAME: ${{ github.event.inputs.time_frame || '1' }}
           ONLY_TOPIC: ${{ github.event.inputs.only_topic || 'all' }}
@@ -51,3 +51,20 @@ jobs:
           DISCORD_WEBHOOK_URL_HEP_EX: ${{ secrets.DISCORD_HEP_EXPERIMENT_WEBHOOK }}
 
         run: python runner.py topics/hep.yml
+
+      - name: Run STAT topics via runner
+        env:
+          TIME_FRAME: ${{ github.event.inputs.time_frame || '1' }}
+          ONLY_TOPIC: ${{ github.event.inputs.only_topic || 'all' }}
+
+          DISCORD_WEBHOOK_URL_STAT_ML: ${{ secrets.DISCORD_STAT_MACHINE_LEARNING_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_STAT_TH: ${{ secrets.DISCORD_STAT_THEORY_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_STAT_ME: ${{ secrets.DISCORD_STAT_METODOLOGY_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_STAT_AP: ${{ secrets.DISCORD_STAT_APPLICATIONS_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_STAT_CO: ${{ secrets.DISCORD_STAT_COMPUTATION_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_STAT_OT: ${{ secrets.DISCORD_STAT_OTHER_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_MATH_ST: ${{ secrets.DISCORD_MATH_STATISTICS_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_CS_LG: ${{ secrets.DISCORD_CS_MACHINE_LEARNING_WEBHOOK }}
+          DISCORD_WEBHOOK_URL_CS_AI: ${{ secrets.DISCORD_CS_ARTIFICIAL_INTELIGENCE_WEBHOOK }}
+
+        run: python runner.py topics/stat.yml
