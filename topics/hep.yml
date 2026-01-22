@@ -1,8 +1,33 @@
 topics:
+  - id: hep-ex
+    title: "High Energy Physics - Experiment"
+    webhook_env: "DISCORD_WEBHOOK_URL_HEP_EX"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:hep-ex&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: hep-ph
+    title: "High Energy Physics - Phenomenology"
+    webhook_env: "DISCORD_WEBHOOK_URL_HEP_PH"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:hep-ph&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: hep-th
+    title: "High Energy Physics - Theory"
+    webhook_env: "DISCORD_WEBHOOK_URL_HEP_TH"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:hep-th&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: hep-lat
+    title: "High Energy Physics - Lattice"
+    webhook_env: "DISCORD_WEBHOOK_URL_HEP_LAT"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:hep-lat&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
   - id: nucl-th
     title: "Nuclear Theory"
-    webhook_env: "DISCORD_WEBHOOK_URL_NUCLTH"
+    webhook_env: "DISCORD_WEBHOOK_URL_NUCL_TH"
     arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:nucl-th&sortBy=submittedDate&sortOrder=descending&max_results=100"
+
+  - id: nucl-ex
+    title: "Nuclear Experiment"
+    webhook_env: "DISCORD_WEBHOOK_URL_NUCL_EX"
+    arxiv_url: "https://export.arxiv.org/api/query?search_query=cat:nucl-ex&sortBy=submittedDate&sortOrder=descending&max_results=100"
 
   - id: qgp_baryogenesis
     title: "Baryogenesis + leptogenesis"
