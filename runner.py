@@ -181,15 +181,13 @@ def run_topic(session: requests.Session, topic: Dict[str, Any], cutoff: Optional
     bozo = getattr(feed, "bozo", None)
     bozo_exc = getattr(feed, "bozo_exception", None) if bozo else None
 
+    print(f"Total results on arXiv   : {total_available}")
+    print(f"Fetched entries          : {total_fetched}")
     print(f"TIME_FRAME               : {TIME_FRAME_RAW}")
     if cutoff is None:
         print("Cutoff (UTC)             : (no date filtering)")   # >>> CHANGED (spacing)
     else:
         print(f"Cutoff (UTC)             : {cutoff.isoformat()}")
-
-    print(f"Fetched entries          : {total_fetched}")
-    print(f"Total results on arXiv   : {total_available}")
-    print(f"HTTP fetch status        : {status}")
     if bozo_exc:
         print(f"Exception                : {bozo_exc}")
     print(f"Query URL                : {arxiv_url}")
