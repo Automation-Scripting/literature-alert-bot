@@ -18,7 +18,7 @@ This repository contains a **Python runner** that fetches articles from **arXiv*
 ## 1) Setup
 
 1. Fork this repository.
-<img width="568" height="139" alt="image" src="https://github.com/user-attachments/assets/46935c34-9eec-4524-8109-789223a56d3d" />
+<img width="706" height="162" alt="image" src="https://github.com/user-attachments/assets/293ac7d9-e2aa-49cc-821a-7a1f8061ae14" />
 
 ---
 
